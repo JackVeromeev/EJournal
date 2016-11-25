@@ -11,7 +11,7 @@ Task includes type of subject this task is referred to (ex. labs, practices), na
 User can add and delete subjects.
 
 ###CRUD week list###
-In schools pupils study week is usually constant, in universities weeks may differ. That's why it's important to have an opportunity to have several weeks of timetable.
+In schools students study week is usually constant, in universities weeks may differ. That's why it's important to have an opportunity to have several weeks of timetable.
 User can add, remove, change the order of weeks, change the number of current week. 
 
 ###CRUD week timetable###
