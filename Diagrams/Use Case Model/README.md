@@ -21,10 +21,10 @@ User navigates to different days of this week and add's, removes or changes the 
 The user taps on the 'X' label near the mark and it disappears.
 
 ###Edit the subject###
-The user can edit the subject. It includes:<br>
-*edit info about teachers(add/delete teacher, change his(her) name, telephone, e-mail)
-*edit the way to calculate the result mark(the sum or the average)
-*add/delete types of subject (lectures, labs, ...)
+The user can edit the subject. It includes:
+* edit info about teachers(add/delete teacher, change his(her) name, telephone, e-mail)
+* edit the way to calculate the result mark(the sum or the average)
+* add/delete types of subject (lectures, labs, ...)
 
 ###Manage classes length and time of start/end###
 User can: set up  time of start and end of the classes, set up classes length(common property, it will change classes ends), add new class, delete class.
