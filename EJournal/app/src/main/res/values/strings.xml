@@ -1,8 +1,19 @@
 <resources>
     <string name="app_name">EJournal</string>
-
+    <string name="classtime_activityname">Class time</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="action_edit">Edit</string>
+    <string name="class_time_list_is_empty_message">This part is empty.\nTo add your class time open
+        \"Edit\" in upper right corner of the screen</string>
+    <string name="edit_class_time_list_is_empty_message">This is empty now.\nTo add your class time tap
+        \"+\" in upper right corner of the screen</string>
+    <string name="title_activity_edit_class_time">EditClassTimeActivity</string>
+
+    <string name="nubber_symbol">#</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+
 </resources>

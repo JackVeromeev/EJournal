@@ -1,5 +1,5 @@
 #EJournal
-##Description
-EJournal helps pupils and students to keep their timetable and homework tasks in one place.
+##Short description
+EJournal helps students to keep their timetable and homework tasks in one place.
 ##Requirements
-Android v 4.1 "Jely Bean" or higher
+Android v 4.0 "Ice Cream Sandwich" or higher
