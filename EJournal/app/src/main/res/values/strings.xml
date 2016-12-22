@@ -10,9 +10,9 @@
         \"Edit\" in upper right corner of the screen</string>
     <string name="edit_class_time_list_is_empty_message">This is empty now.\nTo add your class time tap
         \"+\" in upper right corner of the screen</string>
-    <string name="title_activity_edit_class_time">EditClassTimeActivity</string>
+    <string name="title_activity_edit_class_time">Edit Class Time</string>
 
-    <string name="nubber_symbol">#</string>
+    <string name="number_symbol">#</string>
     <string name="start">Start</string>
     <string name="end">End</string>
 

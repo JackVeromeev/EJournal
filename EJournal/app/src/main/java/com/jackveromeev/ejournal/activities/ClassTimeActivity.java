@@ -1,4 +1,4 @@
-package com.jackveromeev.ejournal;
+package com.jackveromeev.ejournal.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,11 +13,15 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.jackveromeev.ejournal.R;
+import com.jackveromeev.ejournal.entity.ClassTime;
+import com.jackveromeev.ejournal.filework.ClassTimeFile;
+
+import java.util.ArrayList;
+
 public class ClassTimeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-
-    private DBHelper mdbh;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,10 +44,8 @@ public class ClassTimeActivity extends AppCompatActivity
     }
 
     private void fillContent() {
-        mdbh = new DBHelper();
-        if (mdbh.getClassesAmount() == 0) {
-            messageEmpty();
-        }
+        ArrayList<ClassTime> data = ClassTimeFile.getData();
+
     }
 
     private void messageEmpty() {
@@ -107,7 +109,6 @@ public class ClassTimeActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

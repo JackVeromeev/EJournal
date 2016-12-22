@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.jackveromeev.ejournal.EditClassTimeActivity"
+    tools:context="com.jackveromeev.ejournal.activities.EditClassTimeActivity"
     tools:showIn="@layout/activity_edit_class_time"
     android:orientation="vertical">
 
@@ -21,16 +21,20 @@
         <TableRow android:isScrollContainer="true" >
             <TextView
                 android:layout_column="0"
-                android:text="@string/nubber_symbol"
-                android:padding="10sp"/>
+                android:text="@string/number_symbol"
+                android:padding="10sp"
+                android:textSize="40sp"
+                />
             <TextView
                 android:layout_column="1"
                 android:text="@string/start"
-                android:padding="10sp"/>
+                android:padding="10sp"
+                android:textSize="40sp"/>
             <TextView
                 android:layout_column="2"
                 android:text="@string/end"
-                android:padding="10sp"/>
+                android:padding="10sp"
+                android:textSize="40sp"/>
         </TableRow>
     </TableLayout>
 
@@ -39,5 +43,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/edit_class_time_message"
         android:padding="10sp"
-        android:text="lol"/>
+        android:text=""/>
 </LinearLayout>

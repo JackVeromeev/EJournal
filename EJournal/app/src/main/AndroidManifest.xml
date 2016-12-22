@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ClassTimeActivity"
+            android:name=".activities.ClassTimeActivity"
             android:label="@string/classtime_activityname"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,13 +19,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EditClassTimeActivity"
+            android:name=".activities.EditClassTimeActivity"
             android:label="@string/title_activity_edit_class_time"
-            android:parentActivityName=".ClassTimeActivity"
+            android:parentActivityName=".activities.ClassTimeActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jackveromeev.ejournal.ClassTimeActivity" />
+                android:value="com.jackveromeev.ejournal.activities.ClassTimeActivity" />
         </activity>
     </application>
 
