@@ -1,4 +1,4 @@
-package com.jackveromeev.ejournal.activities;
+package com.jackveromeev.ejournal;
 
 import android.content.Intent;
 import android.os.Bundle;

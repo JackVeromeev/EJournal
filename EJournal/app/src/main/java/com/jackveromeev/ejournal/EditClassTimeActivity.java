@@ -1,4 +1,4 @@
-package com.jackveromeev.ejournal.activities;
+package com.jackveromeev.ejournal;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
